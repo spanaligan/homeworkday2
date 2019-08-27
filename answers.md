@@ -7,10 +7,10 @@ What command do you use to ask git to start tracking a file?
 git add . (the dot allows you to add all changed files)
 
 What command do you use to ask git to move your file from the staging area to the repository?
-git commit -m "message about your changes"
+git commit -m "message about your changes" followed by git push origin master
 
 What command do you use to get updates from the class repository?
 git fetch upstream
 
 What command do you use to push your work to your fork of the class repository?
-git push origin master
+git push upstream master (upstream because the 'origin' is not your place)

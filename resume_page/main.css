@@ -14,14 +14,14 @@ img {
     margin-right: auto;
     width: 50%;
 }
-h3 {
+h2, h3 {
     font-family: 'Abril Fatface', cursive;
     color: red;
     font-weight: bold;
     font-size: 35px;
     text-transform: uppercase;
-
 }
+
 body {
     background-color: #fdffbd;
     text-align: center;
@@ -29,19 +29,48 @@ body {
     font-weight: ligher;
 
 }
-a {
+.nav-bar {
+
+    margin: 30px auto;
+    padding: 0;
+    background-color: rgba(139, 90, 87, 0.51);
+    width: 100%;
+
+}
+nav a {
+    display: inline;
+    margin-right: 35px;
     text-decoration: none;
     color: #ff5d1a;
 }
-a:hover {
+nav a:hover {
     color: orange;
 
 }
 ul {
     list-style-type: none;
-    font-size: 25px;
+    font-size: 20px;
+}
+h2 {
+    column-span: all;
+}
+.column {
+    margin: 0 auto;
+    column-count: 3;
+    column-gap: 15px;
+    column-width: 75px;
+/*I could not align the first column with the others*/
+}
+li {
+    margin: 0;
+}
+
+h4 {
+    color: red;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
 
 }
-div {
 
-}
+

@@ -1,0 +1,8 @@
+h1 {
+    color: red;
+}
+img {
+    display: block;
+    max-height: 75px;
+    max-width: 800px;
+}

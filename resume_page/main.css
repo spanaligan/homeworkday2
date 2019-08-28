@@ -1,8 +1,47 @@
 h1 {
-    color: red;
+    font-family: 'Abril Fatface', cursive;
+    color: darkred;
+    text-align: center;
+    font-size: 75px;
 }
+
 img {
+    border: solid black 10px;
+    border-radius: 20px;
+    align: center;
     display: block;
-    max-height: 75px;
-    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h3 {
+    font-family: 'Abril Fatface', cursive;
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+
+}
+body {
+    background-color: #fdffbd;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: ligher;
+
+}
+a {
+    text-decoration: none;
+    color: #ff5d1a;
+}
+a:hover {
+    color: orange;
+
+}
+ul {
+    list-style-type: none;
+    font-size: 25px;
+
+}
+div {
+
 }
